@@ -1,0 +1,172 @@
+/*=============== about ===============*/
+.about {
+    background-color: var(--first-color);
+}
+
+.about__container {
+    padding: 3rem 0 3rem;
+    row-gap: 2.5rem;
+}
+
+.about__title {
+    color: var(--màu-trắng-color);
+    font-size: var(--medium-font-size);
+    font-weight: var(--font-regular);
+    font-family: var(--body-font);
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.about__description {
+    font-family: var(--body-font-roboto);
+    color: var(--màu-trắng-color);
+    font-size: var(--normal-font-size);
+    font-weight: var(--body-font);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.about__button {
+    padding: 1.75rem 2rem;
+    background: var(--first-color-alt);
+    display: inline-block;
+    color: #fff;
+    font-weight: var(--font-regular);
+    font-family: var(--body-font);
+    letter-spacing: 5px;
+    transition: box-shadow .4s;
+    position: relative;
+    border: none;
+}
+
+.about__button::before {
+    position: absolute;
+    content: "";
+    bottom: 1.3rem;
+    width: 145px;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.about__button:hover {
+    box-shadow: 0 4px 32px hsl(204, 62%, 61%);
+}
+
+.about__article {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.about__white {
+    background-color: #fff;
+}
+
+.about__images {
+    padding: 2rem 1.5rem 3.2rem 1.5rem;
+}
+
+.about__img {
+    width: 100%;
+} 
+
+.about__capsules {
+    background-color: var(--màu-tím-color);
+    padding: 6rem 1.5rem 1rem 1.5rem;
+}
+
+.about__heading {
+    font-size: var(--biggest-font-size);
+    color: #fff;
+    font-family: var(--body-font-roboto);
+    font-weight: var(--font-regular);
+    margin-bottom: 5.5rem; 
+    /* padding: 116px 0 77px; */
+    /* padding: 100px 0 80px; */
+} 
+
+.about__card {
+    width: 220px;
+}
+
+.about__img {
+    width: 220px;
+}
+
+.about__desc {
+    margin: 0 0 3rem;
+    color: var(--black-color);
+    font-weight: var(--font-regular);
+    font-size: 1rem;
+}
+
+.about__text {
+    color: #fff;
+    font-weight: var(--font-regular);
+    font-family: var(--body-font);
+}
+
+.about__images h5 {
+    color: var(--black-color);
+    font-weight: var(--font-regular);
+    /* font-size: var(--h4-font-size); */
+    font-size: 1.375rem;
+    font-family: var(--body-font-roboto);
+    /* letter-spacing: 3px; */
+    /* margin-bottom: 1.5rem; */
+ }
+
+.about__icon {
+    position: relative;
+}
+
+.about__icon i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: var(--black-color);
+    font-size: var(--normal-font-size);
+    transition: transform .4s;
+}
+
+.about__icon i:hover {
+    transform: translateX(.25rem);
+}
+.about__bick{
+    background-color: var(--màu-gạch-color);
+}
+
+.about__finding {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+}
+
+/* .home__article,
+.home__img {
+    width: 220px;
+} */
+
+
+
+.about__decs {
+    color: #fff;
+    font-weight: var(--font-regular);
+    font-size: var(--normal-font-size);
+    margin-bottom: 2.1rem;
+}
+
+.about__text {
+    font-size: var(--h4-font-size);
+    font-family: var(--body-font-roboto);
+    margin-bottom: 1.5rem;
+}
+
+.about__capsules .about__icon i {
+    color: #fff;
+    font-size: var(--h5-font-size);
+} 
+
+.bottom {
+    margin-bottom: 4.8rem;
+}
